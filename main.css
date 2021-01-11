@@ -1,0 +1,76 @@
+body{
+    background-color: #00688B
+    ;
+}
+.container {
+    display: inline-block;
+    width: 800px;
+    background-color: aqua;
+    margin-left: calc((100% - 800px) / 2);
+    margin-top: 100px;
+}
+.left-colom{
+    display: inline-block;
+    width: 40%;
+    float: left;
+    padding: 40px;
+}
+
+
+.main-title{
+    display: inline-block;
+    width: 100%;
+}
+.bootom-links{
+    display: inline-block;
+    width: 100%;
+}
+.bootom-links > .symbol {
+    display: inline-block;
+}
+   
+.bootom-links > .link{
+    display: inline-block;
+}
+.right-colom{
+    display: inline-block;
+    width: 60%;
+    float:right;
+    background-color: wheat;
+    padding: 60px;
+
+}
+.close{
+    float: right ;
+    display: inline-block;
+   
+}
+.form{
+    display: inline-block;
+    width: 100%;
+    
+}
+.form-row{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.form-row:last-of-type {
+    margin-bottom: 0px;
+}
+label{
+    display: inline-block;
+    width: 100%;
+}
+input{
+    display: inline-block;
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+}
+.symbol{
+    display: inline-block;
+}
+.link{
+    display: inline-block;}
