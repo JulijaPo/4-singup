@@ -14,6 +14,7 @@ body{
     width: 40%;
     float: left;
     padding: 40px;
+    color: white;
 }
 
 
@@ -22,6 +23,7 @@ body{
     width: 100%;
 }
 .bootom-links{
+    
     display: inline-block;
     width: 100%;
 }
@@ -31,24 +33,33 @@ body{
    
 .bootom-links > .link{
     display: inline-block;
+    color: white;
 }
 .right-colom{
     display: inline-block;
     width: 60%;
-    float:right;
-    background-color: wheat;
+    
+    background-color:white;
     padding: 60px;
-
+position: relative;
 }
 .close{
+    background-color: red;
     float: right ;
     display: inline-block;
-   
+    width: 60px;
+    height: 60px;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   text-align: center;
+   font-size: 30px;
+   line-height: 60px;
 }
 .form{
     display: inline-block;
     width: 100%;
-    
+
 }
 .form-row{
     display: inline-block;
@@ -61,16 +72,51 @@ body{
 label{
     display: inline-block;
     width: 100%;
+    text-transform: uppercase;
+    color: #C8C8C8;
+    font-size: 14px;
 }
 input{
     display: inline-block;
     width: 100%;
+    border: none;
+   border-bottom: 1px solid #F6F6F6;
+   margin-top: 10px;
+   line-height: 20px;
+
 }
 .btn{
     display: inline-block;
+    background-color: #015CDA;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: violet;
 }
 .symbol{
     display: inline-block;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 20px;
+    margin-left: 10px;
 }
 .link{
-    display: inline-block;}
+    display: inline-block;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #6C7EC8;
+
+}
